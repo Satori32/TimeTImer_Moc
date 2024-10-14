@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="TimeTimer.cpp" />
     <ClCompile Include="ソース.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TimeTimer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

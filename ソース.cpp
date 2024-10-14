@@ -1,3 +1,4 @@
+/** /
 #include <stdio.h>
 #include <time.h>
 
@@ -22,6 +23,9 @@ clock_t Result(TimeTimer& In) {
 clock_t Elapsed(TimeTimer& In) {
 	return clock() - In.S;
 }
+/**/
+
+#include "TimeTimer.h"
 
 int main() {
 	TimeTimer S;
